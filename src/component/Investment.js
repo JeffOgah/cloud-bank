@@ -4,6 +4,7 @@ import iIcon1 from "../img/icon-1.png";
 const InvestmentCard = ({ title, rate, duration }) => {
   return (
     <div className="investment-card shadow">
+      <div className="overlay d-md-none"></div>
       <header className="text-center text-white pt-2 mb-4">
         <p className="m-0">{title}</p>
         <p className="m-0 font-weight-bold" style={{ fontSize: "36px" }}>

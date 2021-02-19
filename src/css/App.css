@@ -7,6 +7,26 @@
 .sidebar {
   width: 250px;
 }
+.sidebar-mobile {
+  position: absolute;
+  display: block !important;
+  background-color: #f6f6f6;
+  z-index: 5;
+  height: 100%;
+}
+.overlay.active{
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  background: white;
+  opacity: 50%;
+  overflow: hidden;
+}
+.sidebar ul {
+  position: sticky;
+  top: 0;
+}
 .sidebar li a {
   display: inline-block;
   margin-bottom: 10px;
