@@ -9,6 +9,7 @@ import "./css/App.css";
 function App() {
   function toggleSidebar(e) {
     document.querySelector(".sidebar").classList.toggle("sidebar-mobile");
+    document.querySelector("body").classList.toggle("overflow-hidden");
   }
   return (
     <Router>
