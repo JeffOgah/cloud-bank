@@ -56,3 +56,15 @@
   border-radius: 50%;
   box-sizing: border-box;
 }
+.investment-card {
+  width: 270px;
+  height: 351px;
+  left: 398px;
+  top: 321px;
+  background: #ffffff;
+  border-radius: 10px;
+  background: url("../img/card-bg.png");
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  margin-bottom: 40px;
+}
