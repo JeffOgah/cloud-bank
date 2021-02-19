@@ -21,7 +21,7 @@ function App() {
           onClick={() => toggleSidebar()}
         />
         <div className="container d-flex mt-3 mt-md-4">
-          <Sidebar />
+          <Sidebar toggleSidebar={toggleSidebar} />
           <Switch>
             <Route exact path="/" component={Home}></Route>
             <Route exact path="/investment" component={Investment}></Route>

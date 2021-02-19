@@ -10,10 +10,12 @@
 .sidebar-mobile {
   position: absolute;
   display: block !important;
+  top: 150px;
+  left: 0;
+  height: calc(100% - 100px);
+  width: 100%;
   background-color: #f6f6f6;
   z-index: 5;
-  height: 100%;
-  width: 100%;
   overflow: hidden;
 }
 .sidebar ul {
