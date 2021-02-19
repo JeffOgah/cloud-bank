@@ -54,7 +54,7 @@ const Investment = () => {
             <img src={iIcon1} className="mr-2 mb-2" />
             Investment Plans
           </span>
-          <span className="mx-md-3 mb-2 my-md-0" style={{ opacity: "50%" }}>
+          <span className="mx-sm-3 mb-2 my-md-0" style={{ opacity: "50%" }}>
             <img src={iIcon1} className="mr-2" />
             Create Investment
           </span>
