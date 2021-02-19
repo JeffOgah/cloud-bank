@@ -58,7 +58,6 @@ const TransactionItem = ({ title, amount, debit, classes }) => {
 const Home = () => {
   return (
     <div className="" style={{ flex: "1" }}>
-      <div className="overlay d-md-none"></div>
       <div className="mt-3">
         <p className="h2">Obinna</p>
         <p>Good morning, it’s a good day to save 🤑</p>

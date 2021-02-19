@@ -9,7 +9,6 @@ import "./css/App.css";
 function App() {
   function toggleSidebar(e) {
     document.querySelector(".sidebar").classList.toggle("sidebar-mobile");
-    document.querySelector(".overlay").classList.toggle("active");
   }
   return (
     <Router>
@@ -19,7 +18,7 @@ function App() {
           src={iBars}
           className="ml-2 mt-3 d-md-none"
           style={{ height: "30px", width: "30px" }}
-          onClick={toggleSidebar}
+          onClick={() => toggleSidebar()}
         />
         <div className="container d-flex mt-3 mt-md-4">
           <Sidebar />
